@@ -20,14 +20,14 @@ void main() async {
 
   // Create new structure
   final feature = {
-    "type": "FeatureCollection",
-    "features": [
+    'type': 'FeatureCollection',
+    'features': [
       {
-        "type": "Feature",
-        "properties": <String, dynamic>{},
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
+        'type': 'Feature',
+        'properties': <String, dynamic>{},
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [
             [
               [34.453125, 54.007768],
               [40.78125, 54.007768],

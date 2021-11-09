@@ -1,1 +1,1 @@
-const String serverUrl = 'http://variscite.debils.tech:8000';
+const String defaultTestServerUrl = 'http://variscite.debils.tech:8000';
