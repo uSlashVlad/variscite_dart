@@ -6,9 +6,13 @@ import 'package:geojson_vi/geojson_vi.dart';
 
 class VarisciteApi {
   late RequestsHandler _req;
+  bool _hasToken = false;
+
+  bool get hasToken => _hasToken;
 
   VarisciteApi({String? serviceUrl, String? token}) {
     if (token != null) {
+      _hasToken = true;
       _req = RequestsHandler(
         serviceUrl ?? defaultTestServerUrl,
         headers: _genTokenHeader(token),
@@ -21,6 +25,7 @@ class VarisciteApi {
   }
 
   void setToken(String token) {
+    _hasToken = true;
     _req = RequestsHandler(
       defaultTestServerUrl,
       headers: _genTokenHeader(token),
