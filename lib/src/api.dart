@@ -134,8 +134,10 @@ class VarisciteApi {
     return Map.castFrom(res.data);
   }
 
-  Future<List<UserGeolocationOutput>> getAllGeolocation() async {
-    final res = await _req.getRequest('/location/all');
+  Future<List<UserGeolocationOutput>> getAllGeolocation(
+      {bool excludeUser = false}) async {
+    final res = await _req.getRequest(
+        '/location/all' + (excludeUser ? '?exclude_user=true' : ''));
     final locationMaps = res.data as List;
     return locationMaps
         .map((map) => UserGeolocationOutput.fromMap(map))
