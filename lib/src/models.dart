@@ -191,7 +191,7 @@ class GeolocationPosition extends ApiModel
       };
 
   static GeolocationPosition fromMap(map) => GeolocationPosition(
-        latitude: map['latitude'],
-        longitude: map['longitude'],
+        latitude: map['lat'] + .0,
+        longitude: map['lon'] + .0,
       );
 }
