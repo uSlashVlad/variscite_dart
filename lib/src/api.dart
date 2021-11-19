@@ -33,6 +33,11 @@ class VarisciteApi {
     );
   }
 
+  void removeToken() {
+    _token = null;
+    _req = RequestsHandler(defaultTestServerUrl);
+  }
+
   Map<String, String> _genTokenHeader(String token) {
     return {'Authorization': 'Bearer $token'};
   }
