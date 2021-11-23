@@ -24,7 +24,7 @@ void main() async {
     'features': [
       {
         'type': 'Feature',
-        'properties': <String, dynamic>{},
+        'properties': {},
         'geometry': {
           'type': 'Polygon',
           'coordinates': [

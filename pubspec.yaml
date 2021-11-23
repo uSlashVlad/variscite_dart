@@ -1,15 +1,15 @@
 name: variscite_dart
 description: A starting point for Dart libraries or applications.
 version: 0.1.4
-# homepage: https://www.example.com
+homepage: https://github.com/uSlashVlad/variscite_dart
 
 environment:
   sdk: '>=2.14.3 <3.0.0'
 
 dependencies:
-  dio: ^4.0.1
+  dio: ^4.0.4
   equatable: ^2.0.3
-  geojson_vi: ^2.0.3
+  geojson_vi: ^2.0.4
 
 dev_dependencies:
   lints: ^1.0.0

@@ -171,8 +171,7 @@ class UserGeolocationOutput extends ApiModel {
       );
 }
 
-class GeolocationPosition extends ApiModel
-    implements RequestBodyInterface {
+class GeolocationPosition extends ApiModel implements RequestBodyInterface {
   final double latitude;
   final double longitude;
 
