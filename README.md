@@ -2,6 +2,9 @@
 
 # Variscite Dart
 
+[![Pub Package](https://img.shields.io/pub/v/variscite_dart.svg)](https://pub.dev/packages/variscite_dart)
+[![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/uslashvlad/variscite_dart/master/LICENSE)
+
 **Part of "Variscite" project. Here is also [API](https://github.com/uSlashVlad/variscite_api) and [client app](https://github.com/uSlashVlad/variscite_mobile)**
 
 Library for [Dart](https://dart.dev) programming language for work with [Variscite API](https://github.com/uSlashVlad/variscite_api). Written poorly with Dart and uses this libraries:
